@@ -43,7 +43,7 @@ export async function POST(request:Request){
   if(!SEGMENT.test(account.project_id)||!SEGMENT.test(location)||!SEGMENT.test(model))return NextResponse.json({error:"Cấu hình Vertex AI không hợp lệ"},{status:400});
   const accessToken=await getAccessToken(account);
   const endpoint=`https://aiplatform.googleapis.com/v1/projects/${account.project_id}/locations/${location}/publishers/google/models/${model}:generateContent`;
-  const generationConfig:Record<string,unknown>={temperature:jsonMode?0:.7,maxOutputTokens:jsonMode?8192:1800};
+  const generationConfig:Record<string,unknown>={temperature:jsonMode?0:.7,maxOutputTokens:8192};
   if(jsonMode)generationConfig.seed=1;
   if(jsonMode)generationConfig.responseMimeType="application/json";
   const response=await fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json","Authorization":`Bearer ${accessToken}`},body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}],generationConfig})});

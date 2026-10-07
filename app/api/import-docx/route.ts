@@ -1,3 +1,2 @@
-import {NextResponse} from "next/server";
-import mammoth from "mammoth";
-export async function POST(request:Request){try{const form=await request.formData();const file=form.get("file");if(!(file instanceof File)||!file.name.toLowerCase().endsWith(".docx"))return NextResponse.json({error:"Chỉ hỗ trợ file .docx"},{status:400});if(file.size>10*1024*1024)return NextResponse.json({error:"File vượt quá 10 MB"},{status:413});const buffer=Buffer.from(await file.arrayBuffer());const result=await mammoth.extractRawText({buffer});const text=result.value.replace(/\n{3,}/g,"\n\n").trim();if(!text)return NextResponse.json({error:"File Word không có nội dung văn bản"},{status:422});const title=text.split("\n").find(line=>line.trim().length>2)?.trim().slice(0,80);return NextResponse.json({title,text,warnings:result.messages.map(m=>m.message)})}catch{return NextResponse.json({error:"File Word bị lỗi hoặc không đọc được"},{status:500})}}
+// Retain the previous endpoint for existing clients.
+export {POST} from "../import-source/route";
