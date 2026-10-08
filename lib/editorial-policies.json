@@ -1,0 +1,458 @@
+[
+  {
+    "id": 910001,
+    "text": "News Savvycom là lập luận phục vụ enterprise buyers và partners, dùng sự kiện làm bằng chứng cho một vấn đề kinh doanh; không viết nhật ký hoạt động hay chỉ kể Savvycom tham dự. Giọng tham chiếu là bản AVSTC chính thức khi có trong dữ liệu nguồn.",
+    "uses": 0,
+    "group": "Writing Tone",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910002,
+    "text": "Trước khi lên outline, lập danh sách dữ kiện: tên sự kiện chính thức, loại sự kiện, ngày/địa điểm, đơn vị tổ chức/đồng hành, người tham dự được xác nhận, tên/chức danh/vai trò từng người, luận điểm, số liệu và nguồn, quote nguyên văn, sản phẩm và bước tiếp theo.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910003,
+    "text": "Chỉ trích xuất dữ kiện từ nguồn hoặc hồ sơ đã xác nhận; không bịa tên, chức danh, ngày, số liệu hoặc quote. Thông tin thiếu ghi [TBC: ...] và liệt kê cần kiểm chứng. Vẫn viết đầy đủ với placeholder khi biết rõ sự kiện là gì.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910004,
+    "text": "Mô tả người thực sự tham dự phải có xác nhận từ người có mặt; danh sách mời không chứng minh ai đã đến. Chưa xác nhận ghi [TBC: audience mix].",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910005,
+    "text": "Đối chiếu tên và acronym bị transcript nhận sai với slide/hồ sơ. Nếu brief và hồ sơ mâu thuẫn, dùng dữ liệu sự kiện mới được cung cấp, ghi rõ xung đột cần kiểm chứng. Quote lấy từ caption nháp không mặc nhiên là nguyên văn và phải ghi [TBC: nguyên văn].",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910006,
+    "text": "Chọn một angle: “Most [audience] assume/do X; this event argued/showed Y”. Mọi H2 phục vụ angle đó. Không dùng “tham dự sự kiện”, “sự kiện thành công”, “cột mốc quan trọng” làm angle. Nếu có hai angle tốt, chọn angle phù hợp enterprise buyers và ghi phương án còn lại trong ghi chú biên tập.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910007,
+    "text": "Chọn một evidence anchor giúp làm rõ tension, ưu tiên số liệu speaker dẫn có nguồn trong slide. Số liệu bên ngoài phải có nguồn uy tín được nêu tên, link và kiểm chứng; không dùng số không truy được nguồn.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910008,
+    "text": "Luôn theo flow outline có H1, từng H2 và bullet support idea, vị trí quote/ảnh → duyệt → draft tiếng Việt → duyệt → bản tiếng Anh. Chỉ tạo nội dung cho bước đang được yêu cầu; không viết thẳng full draft trước khi duyệt outline.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910009,
+    "text": "H1 theo loại sự kiện: partnership/award dùng announcement; sự kiện đồng tổ chức dùng câu hỏi + Inside the; speaking slot dùng speaker + quoted hook có căn cứ; delegation có thể dùng positioning claim. Không dùng bare quote hook không nêu speaker làm tiêu đề.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910010,
+    "text": "Nếu tạo publishing package: ghi H1, SEO title tối đa 60 ký tự có Savvycom và partner/organizer, meta description 140–160 ký tự, slug lowercase 3–6 từ có Savvycom + event/partner, category Savvycom News, author Savvycom Editorial Team, word count, angle và 2 headline thay thế. Không dùng SVC hoặc thêm năm vào meta khi không được yêu cầu.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910011,
+    "text": "SEO có package riêng theo ngôn ngữ. Focus keyword là branded phrase, topical terms là secondary. Slug Việt theo truy vấn tiếng Việt không dấu, không phiên âm slug Anh. Ghi chú hreflang khi có hai bản; slug sạch, không ngày tháng, không lỗi chính tả.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910012,
+    "text": "Mở bài news bằng dateline, dùng dấu hai chấm sau địa danh/ngày. Hai câu đầu trả lời ai, việc gì, ở đâu, khi nào và ý nghĩa; nêu organizer và audience có căn cứ. Không liệt kê số bài học/câu hỏi/thử nghiệm như mục lục. Với delegation có thể mở bằng một đoạn bối cảnh và nêu Savvycom chậm nhất đoạn thứ hai.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910013,
+    "text": "Mở bài khoảng 80–120 từ rồi đặt [Ảnh 1]/[Photo 1]. Không đặt standalone pull quote giữa intro và H2 đầu. Thân bài có 2–4 phần insight, mỗi H2 là một claim, không phải nhãn agenda.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910014,
+    "text": "Mọi đoạn dưới H2 phải chứng minh đúng claim của heading: không thiếu ý heading hứa và không chứa ý thuộc mục khác. Tách hoặc chuyển các thông điệp chồng lấn. Không đánh số bài học. Heading hai vế phải song song và đọc riêng vẫn rõ nghĩa.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910015,
+    "text": "Câu mở đoạn/phần phải tự đứng được; không bắt đầu bằng “These takeaways”, “Những đúc kết này”, “The journey behind that quote” khi ý được nhắc chưa xuất hiện.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910016,
+    "text": "Dệt proof point Savvycom vào đúng phần có claim được hỗ trợ; tự giới thiệu công ty nằm trong About Savvycom. Kết bằng thông điệp nội dung của sự kiện; không viết đoạn cảm ơn organizer trong news, để lời cảm ơn cho social caption.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910017,
+    "text": "Mỗi bài news hoàn chỉnh 600–1.000 từ phần thân. Khi quá dài, ưu tiên takeaway trên title, insight giá trị nhất cho business buyers và chủ đề chính thức; gộp ý trùng, bỏ ý yếu và ghi chú phần cắt.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910018,
+    "text": "Dùng 2–3 direct quote, tối đa 4, ưu tiên stance của executive, partner hoặc guest/third-party. Paraphrase phần còn lại và attribution người/chức danh ở lần đầu. Không tự viết quote gán cho người thật; thiếu quote thì paraphrase hoặc [TBC: quote from X on Y].",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910019,
+    "text": "Quote transcript giữ lời speaker, chỉ bỏ filler/false start hoặc sửa lỗi ngữ pháp rõ ràng. Quote rút gọn ghi cần speaker approval; mọi external quote cần duyệt. Nếu talk bằng tiếng Anh, EN dùng nguyên văn script, không dịch ngược quote từ VN.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910020,
+    "text": "Block quote news: đoạn quote riêng, italic, có ngoặc kép; attribution riêng. VN: “- Bà Đặng Thị Thanh Vân, Nhà sáng lập kiêm Tổng Giám đốc, Savvycom”. EN: “Ms. Van Dang, Founder and CEO, Savvycom”, italic, không dash. Quote ngắn có thể inline với attribution trong câu.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910021,
+    "text": "Bài tiếng Anh dùng formal business American English, confident, analytical, third person Savvycom. Không dùng we/our ngoài quote và boilerplate. Report claim với speaker attribution, không giảng giải trực tiếp cho người đọc. Dùng organization/program/analyze và ngày kiểu August 27, 2026.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910022,
+    "text": "Bài tiếng Anh tránh scaffolding học thuật framework/paradigm/perspective khi câu đơn giản đủ dùng, translated-English tells như had the honour of, in the period ahead, affirming its position, successfully took place; tránh hype và superlative không có bằng chứng. Một ý mỗi câu, danh từ cụ thể, câu dài ngắn đa dạng.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910023,
+    "text": "Bản Anh lần đầu Mr./Ms. Full Name, Title, Organization; lần sau tên gọi phù hợp: given name cho tên Việt, surname cho Western name, full English-facing name khi executive dùng tên đó. Ngày là date cụ thể, không yesterday/today. VIP moment nêu một lần đúng protocol title, không làm trục toàn bài.",
+    "uses": 0,
+    "group": "Naming & Terminology",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910024,
+    "text": "Bản Việt viết như tin báo chí Việt từ góc nhìn doanh nghiệp, không như bài truyền động lực. Attribute cho người: “Theo bà Vân”, “ông Hưng chỉ ra”; không dùng “bài trình bày/bài chia sẻ/phần trình bày” làm chủ thể chỉ ra/đề xuất. Dùng tên Việt của speaker ở VN và English-facing name được xác nhận ở EN.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910025,
+    "text": "Chỉ trong news tiếng Việt: dịch jargon tự nhiên: quick win → kết quả nhanh; use case → bài toán ứng dụng; lead → khách hàng tiềm năng; cross-sell/up-sell → bán chéo/bán thêm; marketing/sales → tiếp thị/bán hàng; AI Transformation → chuyển đổi AI; Buy/Integrate/Build → mua sẵn, tích hợp hay tự xây dựng. Có thể giữ AI, KPI, ROI, chatbot, CEO và tên sản phẩm. Không áp Việt hóa thuật ngữ cho bản Anh.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910026,
+    "text": "Trong bản Việt, dịch tên event/organizer/association tự nhiên với tên chính thức có căn cứ, giữ acronym ở lần đầu. Tránh “cử tọa”, khung tư duy học thuật, lạm dụng “nó” và định nghĩa nén khó hiểu. Quote Việt phải tự nhiên như lời speaker, không dịch từng chữ; khi cần, đưa 2–3 cách diễn đạt trong ghi chú để người tham dự duyệt.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910027,
+    "text": "News cả hai ngôn ngữ không dùng em dash hoặc spaced en dash làm dấu chen ý; dùng dấu hai chấm, phẩy, ngoặc hoặc câu mới. Ngoại lệ: leading hyphen ở dòng attribution quote Việt; giữ hyphen trong tên/từ ghép chính thức.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910028,
+    "text": "Áp playbook theo sự kiện: MoU cần parties, signatories/chức danh, scope và next steps thật; co-host cần audience/keynote/panel; speaking slot phải rõ organizer, speaker argument, không ngụ ý Savvycom sở hữu event; trade mission không kể từng điểm dừng; exhibition có demo/questions/products; award phải giải thích awarding body, tiêu chí/phương pháp và ý nghĩa với clients.",
+    "uses": 0,
+    "group": "Event Recap",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910029,
+    "text": "Lên 3–5 photo slot cho bài 600–1.000 từ, ảnh đầu sau intro, ảnh theo major section, ảnh nhóm gần cuối. Chỉ mô tả ảnh đã xem hoặc đề xuất shot/placeholder. Photo caption một câu với người nhận diện được trái sang phải, full title và event; alt tối đa 125 ký tự, không image of/photo of hay keyword stuffing. Ghi featured landscape image trong editor notes.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910030,
+    "text": "Internal link 1–2 trang dịch vụ liên quan từ nguồn đã xác nhận với anchor tự nhiên; link sản phẩm lần đầu nếu có URL; link nguồn external statistics. Có third-party coverage thì thêm Read more coverage. CTA campaign dùng URL được cung cấp, không tự bịa.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910031,
+    "text": "Khi người dùng yêu cầu publishing package, kèm photo captions/alt, links, fact-check list từng tên/chức danh/ngày/venue/số/quote với source và Confirmed/TBC, editor notes về angle và quyết định còn mở. Không tự xuất file trong từng vòng sửa nhỏ; xuất Word khi nội dung được duyệt và người dùng chọn xuất trong ứng dụng.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 910032,
+    "text": "About Savvycom chuẩn tháng 10/2026, dùng nguyên văn theo ngôn ngữ và ưu tiên hơn fact sheet cũ (ghi chú cần cập nhật):\nVN:\nĐược thành lập vào năm 2009, Savvycom là công ty phát triển phần mềm lấy Trí tuệ Nhân tạo (AI) làm trọng tâm, với mạng lưới hoạt động tại nhiều thị trường quốc tế. Chúng tôi chuyên cung cấp các giải pháp AI và chuyển đổi số cho các doanh nghiệp trong lĩnh vực tài chính ngân hàng, y tế, giáo dục, sản xuất và bán lẻ.\n\nKhám phá cách chúng tôi giải quyết các bài toán CNTT của doanh nghiệp bạn: savvycomsoftware.com. Để biết thêm về các giải pháp AI của chúng tôi, vui lòng truy cập savvycom.ai.\n\nEN:\nEstablished in 2009, Savvycom is an AI-driven technology company serving international markets. We provide AI and digital transformation solutions for enterprises in the banking and finance, healthcare, education, manufacturing and retail sectors.\n\nTo learn more about Savvycom's software development and digital transformation services, visit savvycomsoftware.com. For information on its AI solutions, visit savvycom.ai.",
+    "uses": 0,
+    "group": "Event Recap",
+    "scope": "news",
+    "source": "savvycom-event-recap.skill"
+  },
+  {
+    "id": 920001,
+    "text": "Viết social caption tiếng Anh cho LinkedIn Savvycom, đăng lại Facebook với cùng nội dung, không tạo riêng một bản Facebook. Nếu workflow yêu cầu caption Việt, viết tự nhiên như bản Việt gốc, không dịch từng câu. Caption dựa trên business message thật, không brand language chung chung.",
+    "uses": 0,
+    "group": "Writing Tone",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920002,
+    "text": "Chọn đúng một pillar cho mỗi phương án trước khi viết: 1 Industry & Business Insights (30%); 2 Solutions & Use Cases (25%); 3 Client Success & Proof (20%); 4 Expert / Leadership POV (15%); 5 Corporate Credibility (10%). Đây là tỷ trọng kế hoạch, không phải tỷ lệ phải nhồi vào từng caption.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920003,
+    "text": "Pillar 1: trend hoặc vấn đề thực trong BFSI/Healthcare/Manufacturing, observation có căn cứ và nguồn cho mọi số. Pillar 2: cách giải bài toán/use case/architecture/before-after, phải mô tả approach thật, không bắt buộc tên client.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920004,
+    "text": "Pillar 3 cần quantified outcome truy được tới một nguồn được nêu tên; số trong asset khác nhau có thể mâu thuẫn nên phải xác nhận. Không truy được số thì chuyển Pillar 2 mô tả approach, không publish metric. Pillar 4 cần quan điểm đã phát biểu thật của executive được nêu tên/chức danh.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920005,
+    "text": "Pillar 5 chỉ dùng fact về partnership, event, award hoặc certification làm credibility; kế hoạch giới hạn 10%. Không mặc định mọi sự kiện đều là post thông báo.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920006,
+    "text": "People/culture, CSR/community, employer brand/recruitment nằm ngoài hệ thống 5 pillar: vẫn có thể draft, ghi rõ ngoài framework trong open items để người duyệt quyết định off-calendar hoặc tính vào Corporate Credibility; không tự tạo pillar thứ sáu.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920007,
+    "text": "Đọc nguồn/brief/news đã hoàn tất, rút một claim, chi tiết thật, vai trò thật của Savvycom và điều chưa xác minh. Không bịa statistics, clients, partnerships, capabilities, quotes hay outcomes để làm brief có vẻ đầy đặn. URL chỉ dùng khi có nội dung/nguồn được cung cấp hoặc đã xác minh.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920008,
+    "text": "Xác định mục tiêu, audience, CTA/destination và constraints nếu có. Thiếu essential fact thì đưa placeholder [event date], [partner name], [link] trong draft và liệt kê open items; không kéo brief rỗng thành caption dài. Facts trong news là căn cứ, không tự thêm tuyên bố mới.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920009,
+    "text": "Chạy lift test cho brief Pillar 5: có conclusion/disagreement → Pillar 1; có approach giải vấn đề → Pillar 2; có measured client result → Pillar 3; executive stated position → Pillar 4; chỉ có recognition fact → Pillar 5. Không ép nâng pillar khi nguồn không đủ proof.",
+    "uses": 0,
+    "group": "Content Pillars",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920010,
+    "text": "Mỗi caption một angle. Với Pillar 1/2/4, mở bằng argument; sự kiện làm evidence ở câu hai/ba, không mở bằng calendar recap who/where/when. Chỉ Pillar 5 thật hoặc notice thời gian nhạy mới mở announcement.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920011,
+    "text": "Hook phù hợp pillar: contested claim/gap (1,4), reframe (1,2,4), mechanism (2), result first (3), specific detail (3,5). Không rhetorical question không có answer. Hook phải cụ thể tới mức không thể thay tên công ty rồi dùng cho competitor.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920012,
+    "text": "Pillar 1/2/4: hook → context nguồn → ý nghĩa với audience → Savvycom anchor liên quan → CTA nếu hữu ích → hashtags. Chọn cấu trúc phù hợp, không ép mọi thành phần nếu không cần.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920013,
+    "text": "Pillar 3: verified outcome hook → client challenge/context → approach không lộ confidential detail → result/business implication → CTA case study/conversation → hashtags.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920014,
+    "text": "Pillar 5: clear announcement → who/what/where/when có xác nhận và liên quan → ý nghĩa → acknowledgement/tag line → hashtags. Lời cảm ơn đúng căn cứ có thể nằm trong social, không bắt buộc cho mọi pillar.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920015,
+    "text": "Dùng tối đa một brand anchor liên quan làm proof hỗ trợ, không làm trục caption: strategy/market expansion, scale/global presence, practical responsible tech, client impact, people/culture, community/long-term commitment, hoặc Trust/Passion/Savvy/Commitment.",
+    "uses": 0,
+    "group": "Writing Tone",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920016,
+    "text": "Social giọng confident, clear, enterprise B2B, warm và grounded; không press release, không cảm xúc phô trương. Có thể gọi Savvycom/we/our/the Savvycom team, không it. Cấm we could not be prouder, our team was thrilled và excited to announce.",
+    "uses": 0,
+    "group": "Writing Tone",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920017,
+    "text": "Không hype/cliché: cutting-edge, world-class, seamless, game-changing, revolutionary, innovation is at the heart of everything we do; bỏ superlative thiếu proof. CSR/community viết khiêm nhường, nhấn người/partner và cam kết bền bỉ hơn tự ca ngợi.",
+    "uses": 0,
+    "group": "Writing Tone",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920018,
+    "text": "Không em dash; dùng phẩy, hai chấm, chấm. Không mở bằng Yesterday afternoon/This morning/Recently/On a beautiful day in Hanoi. Ngày nằm trong body như fact, không scene-setting. Active voice, paragraph ngắn/vừa; mỗi câu còn lại phải mang claim hoặc fact.",
+    "uses": 0,
+    "group": "Language & Translation",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920019,
+    "text": "Nêu full name và title lần đầu, như Mr. Thomas Nguyen, Chief AI Officer at Savvycom, không our CAIO Thomas. Giữ tên/chức danh/số/ngày đúng nguồn; dùng official English names của tổ chức, không literal translation. Bản Việt dùng tên event/association bằng tiếng Việt có căn cứ.",
+    "uses": 0,
+    "group": "Naming & Terminology",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920020,
+    "text": "Mỗi caption 100–220 từ trừ khi người dùng yêu cầu khác. Claim của hook phải đủ nghĩa trong khoảng 125 ký tự để chịu cutoff mobile Facebook và LinkedIn. Xuống dòng giữa đoạn ngắn để quét trên mobile, không wall of text.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920021,
+    "text": "Hashtag 3–5 tag cụ thể ở cuối, có thể ít hơn với formal announcement; không inline/generic block. Emoji professional hạn chế, chỉ khi giúp quét/tone. Tối đa một CTA gần cuối, chỉ khi có bước tiếp theo hữu ích; không tự bịa link.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920022,
+    "text": "Không mô tả lại điều đã thấy rõ trong ảnh đi kèm. Ghi tổ chức/cá nhân cần tag; handle LinkedIn và Facebook có thể khác, cần áp tag lại khi cross-post.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920023,
+    "text": "Tạo 2 phương án mặc định, 3 khi nguồn hỗ trợ angle khác thật. Mỗi phương án khác argument hoặc pillar, không chỉ khác tone/độ dài; có một dòng vì sao chọn. Khi lift khỏi Pillar 5, giữ một phương án Credibility trực tiếp để reviewer có lựa chọn.",
+    "uses": 0,
+    "group": "Structure & Readability",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920024,
+    "text": "Đầu output: Source read (nguồn/claim), Default pillar và Lifted to kèm lý do nếu có. Mỗi Variant ghi pillar, angle label ngắn, một dòng argument/audience, caption, Hashtags và Tag. Cuối là open items: fact chưa xác minh, nguồn số cần xác nhận, tên/title/placeholder, câu hỏi pillar, gợi ý visual overlay nếu hữu ích.",
+    "uses": 0,
+    "group": "Formatting & CTA",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  },
+  {
+    "id": 920025,
+    "text": "Trước hoàn tất: pillar khớp hook; lift có proof; Pillar 3 mọi số có single named source; hook rõ trong ~125 ký tự; không generic competitor swap, em dash, time-marker opener, hype hoặc superlative thiếu căn cứ; tên/title/organization/date/figure chính xác; variants khác argument. Không áp SEO package hoặc cấu trúc long-form news cho caption.",
+    "uses": 0,
+    "group": "Accuracy & Facts",
+    "scope": "social",
+    "source": "savvycom-social-caption.skill"
+  }
+]
